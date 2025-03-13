@@ -99,12 +99,12 @@ const Project = () => {
           }}
           pagination={{ clickable: true, el: ".custom-pagination" }}
           navigation
-          modules={[Pagination, Navigation,Autoplay ]}
-          autoplay={{
-            delay: 3000, // 5 seconds delay
-            disableOnInteraction: true, // User interaction ke baad bhi autoplay continue rahega
-            pauseOnMouseEnter: true,
-          }}
+          modules={[Pagination, Navigation ]}
+          // autoplay={{
+          //   delay: 3000, // 5 seconds delay
+          //   disableOnInteraction: true, // User interaction ke baad bhi autoplay continue rahega
+          //   pauseOnMouseEnter: true,
+          // }}
           className="p-4"
         >
           {projects.map((project, index) => (
