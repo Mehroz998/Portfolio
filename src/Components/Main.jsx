@@ -40,7 +40,7 @@ const Main = () => {
           whileInView={{y:0 , opacity:1}}
           transition={{duration:0.6 , delay:0.6}}
           download
-          href="" 
+          href="/Mehroz_Ali_CV.pdf"
           className="border-[3px] text-red-600 border-red-600 py-2 px-4 rounded-3xl text-center max-w-fit text-xl hover:bg-red-600 hover:text-white cursor-pointer">
             Resume
           </motion.a>
