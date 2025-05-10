@@ -35,15 +35,26 @@ const Main = () => {
             I am a MERN Stack Developer, specializing in creating modern,
             responsive, and high-performance web applications.
           </motion.p>
-          <motion.a
-          initial={{y:30 , opacity:0}}
-          whileInView={{y:0 , opacity:1}}
-          transition={{duration:0.6 , delay:0.6}}
-          download
-          href="/Mehroz_Ali_CV.pdf"
-          className="border-[3px] text-red-600 border-red-600 py-2 px-4 rounded-3xl text-center max-w-fit text-xl hover:bg-red-600 hover:text-white cursor-pointer">
-            Resume
-          </motion.a>
+          <div className="flex gap-2 flex-wrap">
+            <motion.a
+              initial={{y:30 , opacity:0}}
+              whileInView={{y:0 , opacity:1}}
+              transition={{duration:0.6 , delay:0.6}}
+              download
+              href="/Mehroz_Ali_CV.pdf"
+              className="border-[3px] text-white border-red-600 bg-red-600 py-2 px-4 rounded-3xl text-center max-w-fit text-xl hover:bg-red-700 cursor-pointer">
+                Download CV
+              </motion.a>
+              <motion.a
+              initial={{y:30 , opacity:0}}
+              whileInView={{y:0 , opacity:1}}
+              transition={{duration:0.6 , delay:0.6}}
+              href="/Mehroz_Ali_CV.pdf"
+              target="_blank"
+              className="border-[3px] text-red-600 border-red-600 py-2 px-4 rounded-3xl text-center max-w-fit text-xl hover:bg-red-600 hover:text-white cursor-pointer">
+                View CV
+            </motion.a>
+          </div>
         </div>
         <motion.div
         initial={{opacity:0}}

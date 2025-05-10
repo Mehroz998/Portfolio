@@ -72,9 +72,10 @@ const About = () => {
 
                         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.3 , delay:0.2}} className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
                         <ul>
-                            <li><span>Frontend Developer</span><br/>• HTML, CSS, JavaScript, React.js</li>
+                            <li><span>Frontend Developer</span><br/>• HTML, CSS, JavaScript, ReactJs, NextJs</li>
                             <li><span>Backend Developer</span><br/>• Node.js, Express.js, MongoDB</li>
                             <li><span>Full-Stack Developer (MERN Stack)</span><br/>• React.js, Node.js, Express.js, MongoDB</li>
+                            <li><span>Tools</span><br/>• Github, VSCode</li>
                         </ul>
                         </motion.div>
 
@@ -89,7 +90,7 @@ const About = () => {
 
                         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:0.3 , delay:0.2}} className={`tab-contents ${activeTab === 'education' ? 'active-tab' : ''}`} id="education">
                             <ul>
-                                <li><span>2021-Present</span><br />• Bachelors in Computer Science from Federal Urdu University</li>
+                                <li><span>2022-2025</span><br />• Bachelors in Computer Science from Federal Urdu University</li>
                                 <li><span>2023</span><br />• MERN Stack Web Developer at Bano Qabil Program Organized by Alkhidmat Foundation</li>
                                 <li><span>2021-2022</span><br />• PCIT (Professional Certificate Information Technology) from Sindh Technical Board Karachi</li>
                                 <li><span>2020</span><br />• Intermediate in Pre-Engineering from Degree Boys College</li>
